@@ -40,16 +40,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.10",
-      "date": "2026-11-01T17:10:59.238Z",
+      "version": "1.5.11",
+      "date": "2026-11-01T17:15:59.571Z",
       "notes": [
-        "Logo de OneCloud : le nuage se fond mieux dans l’arc-en-ciel (lumière douce au centre, ombre légère, nuage un peu translucide)."
+        "L’icône de OneCloud sur le bureau et dans le menu Démarrer prend enfin le nouveau logo (Windows gardait l’ancienne image en mémoire)."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.10/hub-1.5.10.cadreur",
-          "size": 385157,
-          "sha256": "32dc3098d6488ae342ea9b27226d3d1623fb8c0a7ba87e6466a881e70b2871b4"
+          "url": "applications/onecloud/1.5.11/hub-1.5.11.cadreur",
+          "size": 385415,
+          "sha256": "ca3176d13c9deb8df8832b1289fffde1498feebe91a8ab63ee45a49d153519d9"
         }
       }
     },
@@ -128,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T17:10:59.238Z"
+  "updatedAt": "2026-11-01T17:15:59.571Z"
 }
