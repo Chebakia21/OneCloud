@@ -40,16 +40,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.5",
-      "date": "2026-11-01T17:03:08.046Z",
+      "version": "1.5.6",
+      "date": "2026-11-01T17:04:33.503Z",
       "notes": [
-        "Nouveau logo de OneCloud : le petit nuage sur un fond multicolore, fait des couleurs de OneClip, OneFile, OneMirror et OneCloud, comme Creative Cloud."
+        "Logo de OneCloud : le nuage seul, sans la barre du bas, bien centré."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.5/hub-1.5.5.cadreur",
-          "size": 342094,
-          "sha256": "7acb025019c403f7001e8b5ea94e4b886407961a95e3e152148a2e7c64412b76"
+          "url": "applications/onecloud/1.5.6/hub-1.5.6.cadreur",
+          "size": 343765,
+          "sha256": "00bec334cf9481b7cc196bd8f05e0a24433695e721c4a03032aeb0d46f5d7b08"
         }
       }
     },
@@ -128,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T17:03:08.046Z"
+  "updatedAt": "2026-11-01T17:04:33.503Z"
 }
