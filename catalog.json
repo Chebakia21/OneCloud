@@ -40,18 +40,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.3",
-      "date": "2026-11-01T16:28:11.044Z",
+      "version": "1.5.4",
+      "date": "2026-11-01T16:57:28.786Z",
       "notes": [
-        "Nouvelles icônes pour toute la série One : le clap (OneClip), la page (OneFile), le téléphone (OneMirror) et le nuage (OneCloud).",
-        "OneCloud a maintenant sa couleur à lui, un jaune miel doux, pour la page ouverte dans le menu. Le bleu reste celui des actions et des réglages.",
-        "Les raccourcis du bureau et du menu Démarrer prennent aussi les nouvelles icônes."
+        "OneCloud reste tout en bleu : ce qui est choisi (la page ouverte, le logiciel sélectionné) prend le bleu foncé de la marque au lieu du jaune."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.3/hub-1.5.3.cadreur",
-          "size": 189099,
-          "sha256": "ab5a0e69086bc29484183f85a298e00721c2959850da4639a0f1645df27203b3"
+          "url": "applications/onecloud/1.5.4/hub-1.5.4.cadreur",
+          "size": 188991,
+          "sha256": "b9ad766a9300a0d82e198b717a83bb8720c41133ecd1e0646e28434a9315eb5b"
         }
       }
     },
@@ -130,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T16:28:11.044Z"
+  "updatedAt": "2026-11-01T16:57:28.786Z"
 }
