@@ -40,16 +40,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.4",
-      "date": "2026-11-01T16:57:28.786Z",
+      "version": "1.5.5",
+      "date": "2026-11-01T17:03:08.046Z",
       "notes": [
-        "OneCloud reste tout en bleu : ce qui est choisi (la page ouverte, le logiciel sélectionné) prend le bleu foncé de la marque au lieu du jaune."
+        "Nouveau logo de OneCloud : le petit nuage sur un fond multicolore, fait des couleurs de OneClip, OneFile, OneMirror et OneCloud, comme Creative Cloud."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.4/hub-1.5.4.cadreur",
-          "size": 188991,
-          "sha256": "b9ad766a9300a0d82e198b717a83bb8720c41133ecd1e0646e28434a9315eb5b"
+          "url": "applications/onecloud/1.5.5/hub-1.5.5.cadreur",
+          "size": 342094,
+          "sha256": "7acb025019c403f7001e8b5ea94e4b886407961a95e3e152148a2e7c64412b76"
         }
       }
     },
@@ -128,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T16:57:28.786Z"
+  "updatedAt": "2026-11-01T17:03:08.046Z"
 }
