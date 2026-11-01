@@ -40,16 +40,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.9",
-      "date": "2026-11-01T17:09:27.348Z",
+      "version": "1.5.10",
+      "date": "2026-11-01T17:10:59.238Z",
       "notes": [
-        "Logo de OneCloud : nuage blanc aux yeux découpés, on voit l’arc-en-ciel à travers, sur un vrai cercle de couleurs façon Creative Cloud."
+        "Logo de OneCloud : le nuage se fond mieux dans l’arc-en-ciel (lumière douce au centre, ombre légère, nuage un peu translucide)."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.9/hub-1.5.9.cadreur",
-          "size": 332759,
-          "sha256": "b27b0a186361ccbad4e4e918398a84370b75db86e9b0b50e71cab6fd0016c325"
+          "url": "applications/onecloud/1.5.10/hub-1.5.10.cadreur",
+          "size": 385157,
+          "sha256": "32dc3098d6488ae342ea9b27226d3d1623fb8c0a7ba87e6466a881e70b2871b4"
         }
       }
     },
@@ -128,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T17:09:27.348Z"
+  "updatedAt": "2026-11-01T17:10:59.238Z"
 }
