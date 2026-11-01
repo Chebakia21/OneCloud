@@ -19,7 +19,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.1 | 01/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.1 | 01/11/2026 |
-| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.6 | 01/11/2026 |
+| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.7 | 01/11/2026 |
 
 ## Nouveautés
 
@@ -39,9 +39,9 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Nouvelle icône : le téléphone de la série One, sur fond bleu, sur le bureau, dans la barre des tâches, en haut de la fenêtre et sur la carte de ton téléphone.
 - OneMirror a maintenant sa couleur à lui, un bleu ciel doux, pour les choix sélectionnés. Le bleu foncé reste celui des actions et des réglages.
 
-### OneCloud 1.5.6
+### OneCloud 1.5.7
 
-- Logo de OneCloud : le nuage seul, sans la barre du bas, bien centré.
+- Logo de OneCloud : un fond arc-en-ciel plus vif, dans l’esprit de Creative Cloud.
 
 ## Comment ce dépôt est rangé
 
