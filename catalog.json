@@ -5,18 +5,16 @@
       "id": "cadreur",
       "name": "OneClip",
       "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
-      "version": "0.7.1",
-      "date": "2026-11-01T16:28:11.044Z",
+      "version": "0.7.2",
+      "date": "2026-11-01T17:40:33.562Z",
       "notes": [
-        "Nouvelle icône : le clap de la série One, sur fond orange, sur le bureau, dans la barre des tâches et en haut de la fenêtre.",
-        "OneClip a maintenant sa couleur à lui, un orange corail doux : l’onglet ouvert, l’outil choisi et l’élément sélectionné (plan, préréglage, mise en page) s’affichent dans cette couleur. Le bleu reste celui des actions et des réglages.",
-        "La fenêtre « À propos » parle maintenant de OneCloud."
+        "Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels."
       ],
       "packages": {
         "patch": {
-          "url": "applications/oneclip/0.7.1/cadreur-0.7.1-patch.cadreur",
-          "size": 17203847,
-          "sha256": "f8347042d3ebf00743a25c792cdc8a024123673603cb01e2062b0fa1c3a50f06",
+          "url": "applications/oneclip/0.7.2/oneclip-0.7.2-patch.onecloud",
+          "size": 17204100,
+          "sha256": "4c29ebcd185aaf31a0d42a32955c2c40f5ba5b4b581711d82bdbeb6b6e1b918c",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -40,16 +38,19 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.11",
-      "date": "2026-11-01T17:15:59.571Z",
+      "version": "1.6.0",
+      "date": "2026-11-01T17:40:33.562Z",
       "notes": [
-        "L’icône de OneCloud sur le bureau et dans le menu Démarrer prend enfin le nouveau logo (Windows gardait l’ancienne image en mémoire)."
+        "Fini le nom provisoire « Cadreur » : OneCloud déménage tout seul dans son propre dossier (OneCloud.exe), avec son nom et son logo jusque dans le Gestionnaire des tâches.",
+        "Ses réglages, les logiciels installés et les fichiers reçus suivent ; raccourcis, menu Démarrer, barre des tâches et « Applications installées » pointent vers le nouveau dossier, puis l'ancien est effacé.",
+        "OneClip est rangé dans un dossier « oneclip » et son programme devient OneClip.exe.",
+        "Les fichiers de mise à jour s'appellent maintenant « .onecloud » (les anciens « .cadreur » s'ouvrent toujours)."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.11/hub-1.5.11.cadreur",
-          "size": 385415,
-          "sha256": "ca3176d13c9deb8df8832b1289fffde1498feebe91a8ab63ee45a49d153519d9"
+          "url": "applications/onecloud/1.6.0/hub-1.6.0.onecloud",
+          "size": 432933,
+          "sha256": "841c3a996e9ba64b2757bf69c33f70ef9f6ccf90db0c2e622dab335f015a0abf"
         }
       }
     },
@@ -128,5 +129,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T17:15:59.571Z"
+  "updatedAt": "2026-11-01T17:40:33.562Z"
 }

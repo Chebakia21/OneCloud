@@ -16,18 +16,16 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.1 | 01/11/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.1 | 01/11/2026 |
-| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.11 | 01/11/2026 |
+| **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.0 | 01/11/2026 |
 
 ## Nouveautés
 
-### OneClip 0.7.1
+### OneClip 0.7.2
 
-- Nouvelle icône : le clap de la série One, sur fond orange, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
-- OneClip a maintenant sa couleur à lui, un orange corail doux : l’onglet ouvert, l’outil choisi et l’élément sélectionné (plan, préréglage, mise en page) s’affichent dans cette couleur. Le bleu reste celui des actions et des réglages.
-- La fenêtre « À propos » parle maintenant de OneCloud.
+- Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels.
 
 ### OneFile 1.4.1
 
@@ -39,9 +37,12 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Nouvelle icône : le téléphone de la série One, sur fond bleu, sur le bureau, dans la barre des tâches, en haut de la fenêtre et sur la carte de ton téléphone.
 - OneMirror a maintenant sa couleur à lui, un bleu ciel doux, pour les choix sélectionnés. Le bleu foncé reste celui des actions et des réglages.
 
-### OneCloud 1.5.11
+### OneCloud 1.6.0
 
-- L’icône de OneCloud sur le bureau et dans le menu Démarrer prend enfin le nouveau logo (Windows gardait l’ancienne image en mémoire).
+- Fini le nom provisoire « Cadreur » : OneCloud déménage tout seul dans son propre dossier (OneCloud.exe), avec son nom et son logo jusque dans le Gestionnaire des tâches.
+- Ses réglages, les logiciels installés et les fichiers reçus suivent ; raccourcis, menu Démarrer, barre des tâches et « Applications installées » pointent vers le nouveau dossier, puis l'ancien est effacé.
+- OneClip est rangé dans un dossier « oneclip » et son programme devient OneClip.exe.
+- Les fichiers de mise à jour s'appellent maintenant « .onecloud » (les anciens « .cadreur » s'ouvrent toujours).
 
 ## Comment ce dépôt est rangé
 
