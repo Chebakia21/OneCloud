@@ -40,16 +40,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.7",
-      "date": "2026-11-01T17:06:07.728Z",
+      "version": "1.5.8",
+      "date": "2026-11-01T17:07:05.903Z",
       "notes": [
-        "Logo de OneCloud : un fond arc-en-ciel plus vif, dans l’esprit de Creative Cloud."
+        "Logo de OneCloud : le nuage passe en blanc, comme le symbole de Creative Cloud."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.7/hub-1.5.7.cadreur",
-          "size": 386932,
-          "sha256": "3fbdbd44e47b4bbddac795af3437fd426f307f576379f5e52b0ed3f03823dfa6"
+          "url": "applications/onecloud/1.5.8/hub-1.5.8.cadreur",
+          "size": 391384,
+          "sha256": "1ab7435f8b0667ce3cec8149a7ae3c05ee181c9b3aa18ab676dab07b6f4a2506"
         }
       }
     },
@@ -128,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-01T17:06:07.728Z"
+  "updatedAt": "2026-11-01T17:07:05.903Z"
 }
