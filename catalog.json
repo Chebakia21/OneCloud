@@ -5,31 +5,18 @@
       "id": "cadreur",
       "name": "OneClip",
       "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
-      "version": "0.7.0",
-      "date": "2026-10-24T16:20:20.050Z",
+      "version": "0.7.1",
+      "date": "2026-11-01T16:28:11.044Z",
       "notes": [
-        "Nouveau nom, OneClip, avec un nouveau logo et nouvelle icône (translucide en grand, unie en petit). Vos projets, réglages et raccourcis sont conservés.",
-        "Nouvelles couleurs : interface bleu nuit et crème, avec un bleu d'accent réservé aux actions principales.",
-        "Panneaux redimensionnables (poignées entre les panneaux et au-dessus de la timeline) et repliables (boutons en haut à droite) ; votre disposition est gardée d'un lancement à l'autre.",
-        "Sur un petit écran, les panneaux rétrécissent puis se replient d'eux-mêmes pour laisser la place à l'aperçu ; sur un grand écran, ils s'élargissent.",
-        "Propriétés du montage rangées en catégories repliables : Transformation, Animation, Vitesse, Audio, Couleur, Effets, Masques, Suivi, Fondus, Sous-titres, Informations du média.",
-        "Avec plusieurs plans sélectionnés, chaque catégorie indique si elle modifie tous les plans ou seulement le plan actif.",
-        "Champs numériques plus précis : flèches ↑ ↓ au clavier, saisie au clavier vérifiée avec un message si la valeur n'est pas reconnue.",
-        "Toutes les fenêtres restent centrées et entièrement visibles quand vous redimensionnez OneClip ; le focus va au bon endroit et revient d'où vous veniez ; Échap ferme.",
-        "Le menu du clic droit ne sort plus de l'écran et se pilote au clavier.",
-        "Nouveau menu OneClip (le logo) : accueil, nouveau montage, créer des clips, enregistrer, réglages, raccourcis et « À propos » avec la version et ce dont OneClip a besoin sur l'ordinateur.",
-        "Le graphique d'intensité des moments est plus grand, avec un axe des temps et la valeur exacte au survol.",
-        "Moniteurs : avance image par image et état de chargement dans le moniteur source, message clair si un fichier ne se lit pas, image toujours au bon ratio quelle que soit la qualité d'aperçu.",
-        "Timeline : vignettes le long des plans vidéo (calculées en arrière-plan et gardées), confirmation avant de supprimer une piste qui contient des plans.",
-        "OneClip se rouvre à la même taille et au même endroit, et revient sur l'écran si celui-ci a été débranché.",
-        "Les projets récents signalent les vidéos introuvables, et OneCloud peut ouvrir un projet ou démarrer un montage directement.",
-        "Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout."
+        "Nouvelle icône : le clap de la série One, sur fond orange, sur le bureau, dans la barre des tâches et en haut de la fenêtre.",
+        "OneClip a maintenant sa couleur à lui, un orange corail doux : l’onglet ouvert, l’outil choisi et l’élément sélectionné (plan, préréglage, mise en page) s’affichent dans cette couleur. Le bleu reste celui des actions et des réglages.",
+        "La fenêtre « À propos » parle maintenant de OneCloud."
       ],
       "packages": {
         "patch": {
-          "url": "applications/oneclip/0.7.0/cadreur-0.7.0-patch.cadreur",
-          "size": 17256839,
-          "sha256": "a2c692afc673166396fc63ef7c3a167ee01a0681612720bd16577e5e5b8d7efe",
+          "url": "applications/oneclip/0.7.1/cadreur-0.7.1-patch.cadreur",
+          "size": 17203847,
+          "sha256": "f8347042d3ebf00743a25c792cdc8a024123673603cb01e2062b0fa1c3a50f06",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -53,16 +40,18 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.5.2",
-      "date": "2026-10-30T16:12:46.442Z",
+      "version": "1.5.3",
+      "date": "2026-11-01T16:28:11.044Z",
       "notes": [
-        "OneCloud se prépare au nouveau nom de son cloud sur GitHub (OneCloud au lieu de Cadreur-Release) : il cherche les mises à jour à la nouvelle adresse, et à l’ancienne en secours. Rien ne change pour toi."
+        "Nouvelles icônes pour toute la série One : le clap (OneClip), la page (OneFile), le téléphone (OneMirror) et le nuage (OneCloud).",
+        "OneCloud a maintenant sa couleur à lui, un jaune miel doux, pour la page ouverte dans le menu. Le bleu reste celui des actions et des réglages.",
+        "Les raccourcis du bureau et du menu Démarrer prennent aussi les nouvelles icônes."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.5.2/hub-1.5.2.cadreur",
-          "size": 310631,
-          "sha256": "2d57da6ac45429b17adf7de4e2ae17094f5a27a01f46e8c23af5b97f4eb8687e"
+          "url": "applications/onecloud/1.5.3/hub-1.5.3.cadreur",
+          "size": 189099,
+          "sha256": "ab5a0e69086bc29484183f85a298e00721c2959850da4639a0f1645df27203b3"
         }
       }
     },
@@ -70,20 +59,17 @@
       "id": "onefile",
       "name": "OneFile",
       "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
-      "version": "1.4.0",
-      "date": "2026-10-31T16:44:07.787Z",
+      "version": "1.4.1",
+      "date": "2026-11-01T16:28:11.044Z",
       "notes": [
-        "Nouvelle action pour les images : « Changer les dimensions ». Choisis une taille toute prête ou entre la tienne, et chaque image sort exactement à cette taille, à côté de l’original (« photo (1920x1080).jpg »).",
-        "Plus de 40 tailles prêtes : écran (Full HD, 4K, vertical…), Twitch (photo de profil, bannière, écran hors ligne, panneau, emote, badge d’abonné, icône de points de chaîne), YouTube (miniature, bannière, filigrane, Short…), Instagram, TikTok, X, Discord, Facebook, LinkedIn et impression A4.",
-        "Emotes, badges et icônes de points de chaîne Twitch : toutes les tailles demandées par Twitch d’un coup (par exemple 112, 56 et 28 px), en PNG transparent, dans un dossier.",
-        "Quand les proportions ne sont pas les mêmes : « Remplir » (les bords qui dépassent sont rognés, en gardant le centre ou le sujet), « Tout garder » (bords flous, noirs, blancs ou transparents) ou « Étirer ».",
-        "Taille personnalisée : remplis la largeur, la hauteur, ou une seule des deux pour garder les proportions."
+        "Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.",
+        "OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onefile/1.4.0/onefile-1.4.0-patch.cadreur",
-          "size": 32504287,
-          "sha256": "64773cb9427b601ae2cc0b74b23d63899dd1447085685e3a2e7b0082b5200007",
+          "url": "applications/onefile/1.4.1/onefile-1.4.1-patch.cadreur",
+          "size": 32451692,
+          "sha256": "ef1721b20fa4c8789b11766ad257e72534e49425792c4e93a095133eaff1836b",
           "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
         },
         "full": {
@@ -112,18 +98,17 @@
       "id": "onemirror",
       "name": "OneMirror",
       "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
-      "version": "1.2.0",
-      "date": "2026-10-30T12:34:16.497Z",
+      "version": "1.2.1",
+      "date": "2026-11-01T16:28:11.044Z",
       "notes": [
-        "Le volume du téléphone règle maintenant le son sur le PC : les boutons + et − du téléphone montent et baissent le son de OneMirror, comme dans le mélangeur de volume de Windows.",
-        "Le volume du téléphone s’affiche sur la carte du téléphone pendant l’affichage (par exemple « 47 % »).",
-        "Tu préfères garder le son du PC fixe ? Désactive « Le volume du téléphone règle le son sur le PC » dans la partie Son."
+        "Nouvelle icône : le téléphone de la série One, sur fond bleu, sur le bureau, dans la barre des tâches, en haut de la fenêtre et sur la carte de ton téléphone.",
+        "OneMirror a maintenant sa couleur à lui, un bleu ciel doux, pour les choix sélectionnés. Le bleu foncé reste celui des actions et des réglages."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onemirror/1.2.0/onemirror-1.2.0-patch.cadreur",
-          "size": 693817,
-          "sha256": "71a12a525483b52821dc37d72dd3807c8168bfe9c6dc21818909bff25e2ac536",
+          "url": "applications/onemirror/1.2.1/onemirror-1.2.1-patch.cadreur",
+          "size": 648942,
+          "sha256": "c0d60751206801d7819d296c8bee7e4677f9ba29209ee498c1067908c23abcd5",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
         },
         "full": {
@@ -145,5 +130,5 @@
       }
     }
   ],
-  "updatedAt": "2026-10-31T16:44:07.787Z"
+  "updatedAt": "2026-11-01T16:28:11.044Z"
 }
