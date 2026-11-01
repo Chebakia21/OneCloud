@@ -16,49 +16,34 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.0 | 24/10/2026 |
-| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.0 | 31/10/2026 |
-| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.0 | 30/10/2026 |
-| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.2 | 30/10/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.1 | 01/11/2026 |
+| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
+| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.1 | 01/11/2026 |
+| **OneCloud** | Installe et met à jour les trois logiciels. | 1.5.3 | 01/11/2026 |
 
 ## Nouveautés
 
-### OneClip 0.7.0
+### OneClip 0.7.1
 
-- Nouveau nom, OneClip, avec un nouveau logo et nouvelle icône (translucide en grand, unie en petit). Vos projets, réglages et raccourcis sont conservés.
-- Nouvelles couleurs : interface bleu nuit et crème, avec un bleu d'accent réservé aux actions principales.
-- Panneaux redimensionnables (poignées entre les panneaux et au-dessus de la timeline) et repliables (boutons en haut à droite) ; votre disposition est gardée d'un lancement à l'autre.
-- Sur un petit écran, les panneaux rétrécissent puis se replient d'eux-mêmes pour laisser la place à l'aperçu ; sur un grand écran, ils s'élargissent.
-- Propriétés du montage rangées en catégories repliables : Transformation, Animation, Vitesse, Audio, Couleur, Effets, Masques, Suivi, Fondus, Sous-titres, Informations du média.
-- Avec plusieurs plans sélectionnés, chaque catégorie indique si elle modifie tous les plans ou seulement le plan actif.
-- Champs numériques plus précis : flèches ↑ ↓ au clavier, saisie au clavier vérifiée avec un message si la valeur n'est pas reconnue.
-- Toutes les fenêtres restent centrées et entièrement visibles quand vous redimensionnez OneClip ; le focus va au bon endroit et revient d'où vous veniez ; Échap ferme.
-- Le menu du clic droit ne sort plus de l'écran et se pilote au clavier.
-- Nouveau menu OneClip (le logo) : accueil, nouveau montage, créer des clips, enregistrer, réglages, raccourcis et « À propos » avec la version et ce dont OneClip a besoin sur l'ordinateur.
-- Le graphique d'intensité des moments est plus grand, avec un axe des temps et la valeur exacte au survol.
-- Moniteurs : avance image par image et état de chargement dans le moniteur source, message clair si un fichier ne se lit pas, image toujours au bon ratio quelle que soit la qualité d'aperçu.
-- Timeline : vignettes le long des plans vidéo (calculées en arrière-plan et gardées), confirmation avant de supprimer une piste qui contient des plans.
-- OneClip se rouvre à la même taille et au même endroit, et revient sur l'écran si celui-ci a été débranché.
-- Les projets récents signalent les vidéos introuvables, et OneCloud peut ouvrir un projet ou démarrer un montage directement.
-- Nouveau réglage « Réduire les animations », zones de clic agrandies et textes plus lisibles partout.
+- Nouvelle icône : le clap de la série One, sur fond orange, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
+- OneClip a maintenant sa couleur à lui, un orange corail doux : l’onglet ouvert, l’outil choisi et l’élément sélectionné (plan, préréglage, mise en page) s’affichent dans cette couleur. Le bleu reste celui des actions et des réglages.
+- La fenêtre « À propos » parle maintenant de OneCloud.
 
-### OneFile 1.4.0
+### OneFile 1.4.1
 
-- Nouvelle action pour les images : « Changer les dimensions ». Choisis une taille toute prête ou entre la tienne, et chaque image sort exactement à cette taille, à côté de l’original (« photo (1920x1080).jpg »).
-- Plus de 40 tailles prêtes : écran (Full HD, 4K, vertical…), Twitch (photo de profil, bannière, écran hors ligne, panneau, emote, badge d’abonné, icône de points de chaîne), YouTube (miniature, bannière, filigrane, Short…), Instagram, TikTok, X, Discord, Facebook, LinkedIn et impression A4.
-- Emotes, badges et icônes de points de chaîne Twitch : toutes les tailles demandées par Twitch d’un coup (par exemple 112, 56 et 28 px), en PNG transparent, dans un dossier.
-- Quand les proportions ne sont pas les mêmes : « Remplir » (les bords qui dépassent sont rognés, en gardant le centre ou le sujet), « Tout garder » (bords flous, noirs, blancs ou transparents) ou « Étirer ».
-- Taille personnalisée : remplis la largeur, la hauteur, ou une seule des deux pour garder les proportions.
+- Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
+- OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages.
 
-### OneMirror 1.2.0
+### OneMirror 1.2.1
 
-- Le volume du téléphone règle maintenant le son sur le PC : les boutons + et − du téléphone montent et baissent le son de OneMirror, comme dans le mélangeur de volume de Windows.
-- Le volume du téléphone s’affiche sur la carte du téléphone pendant l’affichage (par exemple « 47 % »).
-- Tu préfères garder le son du PC fixe ? Désactive « Le volume du téléphone règle le son sur le PC » dans la partie Son.
+- Nouvelle icône : le téléphone de la série One, sur fond bleu, sur le bureau, dans la barre des tâches, en haut de la fenêtre et sur la carte de ton téléphone.
+- OneMirror a maintenant sa couleur à lui, un bleu ciel doux, pour les choix sélectionnés. Le bleu foncé reste celui des actions et des réglages.
 
-### OneCloud 1.5.2
+### OneCloud 1.5.3
 
-- OneCloud se prépare au nouveau nom de son cloud sur GitHub (OneCloud au lieu de Cadreur-Release) : il cherche les mises à jour à la nouvelle adresse, et à l’ancienne en secours. Rien ne change pour toi.
+- Nouvelles icônes pour toute la série One : le clap (OneClip), la page (OneFile), le téléphone (OneMirror) et le nuage (OneCloud).
+- OneCloud a maintenant sa couleur à lui, un jaune miel doux, pour la page ouverte dans le menu. Le bleu reste celui des actions et des réglages.
+- Les raccourcis du bureau et du menu Démarrer prennent aussi les nouvelles icônes.
 
 ## Comment ce dépôt est rangé
 
