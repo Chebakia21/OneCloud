@@ -97,17 +97,16 @@
       "id": "onemirror",
       "name": "OneMirror",
       "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
-      "version": "1.3.4",
-      "date": "2026-11-04T12:33:33.910Z",
+      "version": "1.3.5",
+      "date": "2026-11-04T12:40:34.654Z",
       "notes": [
-        "Caméra virtuelle : correction de deux défauts qui empêchaient l’image d’arriver dans Discord (le motif vert rayé). L’image est maintenant envoyée sans interruption, même quand elle ne bouge pas.",
-        "Testée de bout en bout dans un vrai Electron : fenêtre « téléphone » filmée, image centrée dans un cadre 16:9 et envoyée à la caméra."
+        "Caméra virtuelle : cause trouvée du motif vert dans Discord. OneMirror refermait trop tôt un des éléments dont le pilote a besoin pour démarrer, donc l’image n’arrivait jamais. Il les garde maintenant ouverts."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onemirror/1.3.4/onemirror-1.3.4-patch.onecloud",
-          "size": 713777,
-          "sha256": "3de4b36757df8542c9ea34b7a28db502763e941ff48b2043072814fae74dfcc4",
+          "url": "applications/onemirror/1.3.5/onemirror-1.3.5-patch.onecloud",
+          "size": 714425,
+          "sha256": "12fc7adb29c4a5889efe3a523cafb3a72e9fba02a63465296ebc41788e3ea667",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
         },
         "full": {
@@ -129,5 +128,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-04T12:33:33.910Z"
+  "updatedAt": "2026-11-04T12:40:34.654Z"
 }
