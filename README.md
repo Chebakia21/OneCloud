@@ -18,7 +18,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
-| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.2.1 | 01/11/2026 |
+| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.3.0 | 04/11/2026 |
 | **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.0 | 01/11/2026 |
 
 ## Nouveautés
@@ -32,10 +32,11 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
 - OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages.
 
-### OneMirror 1.2.1
+### OneMirror 1.3.0
 
-- Nouvelle icône : le téléphone de la série One, sur fond bleu, sur le bureau, dans la barre des tâches, en haut de la fenêtre et sur la carte de ton téléphone.
-- OneMirror a maintenant sa couleur à lui, un bleu ciel doux, pour les choix sélectionnés. Le bleu foncé reste celui des actions et des réglages.
+- Nouveau (bêta) : Caméra virtuelle. En mode Caméra ou Selfie, ton téléphone devient une webcam « OneMirror Camera » que Discord, Zoom et OBS voient directement, sans OBS ni autre logiciel.
+- À la première activation, OneMirror installe la caméra dans Windows (une seule fois, Windows demande l’autorisation de l’administrateur). Tu peux la retirer depuis les réglages.
+- Sous l’affichage, une ligne dit si la caméra attend (choisis « OneMirror Camera » dans Discord) ou envoie déjà l’image.
 
 ### OneCloud 1.6.0
 
