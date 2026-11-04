@@ -18,7 +18,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
-| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.0 | 04/11/2026 |
+| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.1 | 04/11/2026 |
 | **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.0 | 01/11/2026 |
 
 ## Nouveautés
@@ -32,11 +32,10 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
 - OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages.
 
-### OneMirror 1.4.0
+### OneMirror 1.4.1
 
-- Plus de « Selfie » : choisis « Caméra », puis « Arrière » ou « Avant ».
-- Nouveaux réglages de la caméra, façon Logitech : aperçu de ce que voit Discord, cadrage (remplir le 16:9 ou image entière), zoom jusqu’à 4× avec des flèches pour déplacer l’image, luminosité, contraste, saturation et netteté. Ils s’appliquent en direct à la caméra virtuelle.
-- Fluidité 30 ou 60 images par seconde, lampe torche (caméra arrière), et retourner l’image horizontalement ou verticalement.
+- Caméra virtuelle : « Réduire » la fenêtre du téléphone ne fige plus l’image dans Discord. La fenêtre est rangée hors de l’écran (Windows continue de la dessiner) et revient quand tu cliques sur son bouton dans la barre des tâches.
+- Sans le cadre OneMirror, si la fenêtre du téléphone est réduite, la ligne « Caméra virtuelle » te prévient que l’image est figée.
 
 ### OneCloud 1.6.0
 
