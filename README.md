@@ -18,7 +18,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
-| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.3.5 | 04/11/2026 |
+| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.3.6 | 04/11/2026 |
 | **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.0 | 01/11/2026 |
 
 ## Nouveautés
@@ -32,9 +32,10 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
 - OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages.
 
-### OneMirror 1.3.5
+### OneMirror 1.3.6
 
-- Caméra virtuelle : cause trouvée du motif vert dans Discord. OneMirror refermait trop tôt un des éléments dont le pilote a besoin pour démarrer, donc l’image n’arrivait jamais. Il les garde maintenant ouverts.
+- Caméra virtuelle : Discord montre maintenant l’image du téléphone (caméra ou selfie), et plus la fenêtre de OneMirror qui porte le même nom.
+- L’image n’est plus la tête en bas. Dans ton propre aperçu, Discord la montre en miroir, comme toute webcam ; les autres la voient à l’endroit.
 
 ### OneCloud 1.6.0
 
