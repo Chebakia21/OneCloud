@@ -17,7 +17,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
-| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.0 | 10/11/2026 |
+| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.4 | 07/11/2026 |
 | **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.1 | 10/11/2026 |
 
@@ -27,14 +27,9 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 - Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels.
 
-### OneFile 1.5.0
+### OneFile 1.5.1
 
-- Clic droit « Convertir avec OneFile » : un sous-menu avec tes préréglages (Pour Discord, Réduire le poids, Pour le web…). Choisis-en un et la conversion se fait tout de suite, sans ouvrir la fenêtre ; une notification te prévient quand c’est prêt.
-- Poids estimé avant de convertir : à côté de chaque fichier et en bas (« 12 Mo au lieu de 48 Mo »). Les images sont essayées pour de vrai, les vidéos sur quelques secondes.
-- PDF : quatre nouveaux outils. Réduire le poids (léger, équilibré ou fort, le texte reste du texte), tourner, réorganiser ou retirer des pages (bouton « Pages » à côté du PDF), ajouter un mot de passe (AES 256) et retirer un mot de passe ou les interdictions d’imprimer et de copier.
-- Nouveau préréglage « Réduire le poids » : images, vidéos et PDF plus légers, dans leur format.
-- PDF → Word : les listes à puces des PDF faits par un navigateur (Chrome, Edge) sont retrouvées, et les PDF en deux colonnes avec un tableau gardent leurs colonnes au lieu de déborder sur une page de plus.
-- Les dossiers surveillés sont retirés. OneFile ne démarre plus avec Windows et efface tout seul l’ancienne entrée.
+- Correction : la conversion en Word s’arrêtait sur les PDF qui contiennent une page scannée (« Conversion en Word interrompue »). Les pages scannées sont de nouveau lues.
 
 ### OneMirror 1.4.4
 
