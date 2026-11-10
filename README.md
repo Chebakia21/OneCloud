@@ -17,9 +17,9 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
 | **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
-| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.4.1 | 01/11/2026 |
+| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.0 | 10/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.4 | 07/11/2026 |
-| **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.0 | 01/11/2026 |
+| **OneCloud** | Installe et met à jour les trois logiciels. | 1.6.1 | 10/11/2026 |
 
 ## Nouveautés
 
@@ -27,21 +27,22 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 - Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels.
 
-### OneFile 1.4.1
+### OneFile 1.5.0
 
-- Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.
-- OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages.
+- Clic droit « Convertir avec OneFile » : un sous-menu avec tes préréglages (Pour Discord, Réduire le poids, Pour le web…). Choisis-en un et la conversion se fait tout de suite, sans ouvrir la fenêtre ; une notification te prévient quand c’est prêt.
+- Poids estimé avant de convertir : à côté de chaque fichier et en bas (« 12 Mo au lieu de 48 Mo »). Les images sont essayées pour de vrai, les vidéos sur quelques secondes.
+- PDF : quatre nouveaux outils. Réduire le poids (léger, équilibré ou fort, le texte reste du texte), tourner, réorganiser ou retirer des pages (bouton « Pages » à côté du PDF), ajouter un mot de passe (AES 256) et retirer un mot de passe ou les interdictions d’imprimer et de copier.
+- Nouveau préréglage « Réduire le poids » : images, vidéos et PDF plus légers, dans leur format.
+- PDF → Word : les listes à puces des PDF faits par un navigateur (Chrome, Edge) sont retrouvées, et les PDF en deux colonnes avec un tableau gardent leurs colonnes au lieu de déborder sur une page de plus.
+- Les dossiers surveillés sont retirés. OneFile ne démarre plus avec Windows et efface tout seul l’ancienne entrée.
 
 ### OneMirror 1.4.4
 
 - Correction : la fenêtre du téléphone pouvait devenir plus grande que l’écran et couper l’image (par exemple en paysage ou collée en haut de l’écran). Après chaque redimensionnement, elle reprend les bonnes proportions et revient entièrement dans l’écran.
 
-### OneCloud 1.6.0
+### OneCloud 1.6.1
 
-- Fini le nom provisoire « Cadreur » : OneCloud déménage tout seul dans son propre dossier (OneCloud.exe), avec son nom et son logo jusque dans le Gestionnaire des tâches.
-- Ses réglages, les logiciels installés et les fichiers reçus suivent ; raccourcis, menu Démarrer, barre des tâches et « Applications installées » pointent vers le nouveau dossier, puis l'ancien est effacé.
-- OneClip est rangé dans un dossier « oneclip » et son programme devient OneClip.exe.
-- Les fichiers de mise à jour s'appellent maintenant « .onecloud » (les anciens « .cadreur » s'ouvrent toujours).
+- Le clic droit de OneFile (son nouveau sous-menu de préréglages) suit chaque mise à jour de OneFile.
 
 ## Comment ce dépôt est rangé
 
