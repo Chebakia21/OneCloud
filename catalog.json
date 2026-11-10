@@ -1,0 +1,132 @@
+{
+  "format": 1,
+  "apps": [
+    {
+      "id": "cadreur",
+      "name": "OneClip",
+      "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
+      "version": "0.7.2",
+      "date": "2026-11-01T17:40:33.562Z",
+      "notes": [
+        "Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels."
+      ],
+      "packages": {
+        "patch": {
+          "url": "applications/oneclip/0.7.2/oneclip-0.7.2-patch.onecloud",
+          "size": 17204100,
+          "sha256": "4c29ebcd185aaf31a0d42a32955c2c40f5ba5b4b581711d82bdbeb6b6e1b918c",
+          "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
+        },
+        "full": {
+          "version": "0.3.0",
+          "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556",
+          "size": 170043471,
+          "sha256": "5d130d36ec718df15cd5d443cd2d74bedbe150f4f0ff3ab96dfde648b49e332e",
+          "parts": [
+            {
+              "url": "applications/oneclip/base/cadreur-0.3.0-full.cadreur.part01",
+              "size": 94371840
+            },
+            {
+              "url": "applications/oneclip/base/cadreur-0.3.0-full.cadreur.part02",
+              "size": 75671631
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "hub",
+      "name": "OneCloud",
+      "version": "1.6.0",
+      "date": "2026-11-01T17:40:33.562Z",
+      "notes": [
+        "Fini le nom provisoire « Cadreur » : OneCloud déménage tout seul dans son propre dossier (OneCloud.exe), avec son nom et son logo jusque dans le Gestionnaire des tâches.",
+        "Ses réglages, les logiciels installés et les fichiers reçus suivent ; raccourcis, menu Démarrer, barre des tâches et « Applications installées » pointent vers le nouveau dossier, puis l'ancien est effacé.",
+        "OneClip est rangé dans un dossier « oneclip » et son programme devient OneClip.exe.",
+        "Les fichiers de mise à jour s'appellent maintenant « .onecloud » (les anciens « .cadreur » s'ouvrent toujours)."
+      ],
+      "packages": {
+        "hub": {
+          "url": "applications/onecloud/1.6.0/hub-1.6.0.onecloud",
+          "size": 432933,
+          "sha256": "841c3a996e9ba64b2757bf69c33f70ef9f6ccf90db0c2e622dab335f015a0abf"
+        }
+      }
+    },
+    {
+      "id": "onefile",
+      "name": "OneFile",
+      "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
+      "version": "1.4.1",
+      "date": "2026-11-01T16:28:11.044Z",
+      "notes": [
+        "Nouvelle icône : la page de la série One, sur fond vert, sur le bureau, dans la barre des tâches et en haut de la fenêtre.",
+        "OneFile a maintenant sa couleur à lui, un vert menthe doux : l’onglet ouvert, le choix « Que veux-tu faire ? » et le format choisi s’affichent dans cette couleur. Le bleu reste celui du bouton Convertir et des réglages."
+      ],
+      "packages": {
+        "patch": {
+          "url": "applications/onefile/1.4.1/onefile-1.4.1-patch.cadreur",
+          "size": 32451692,
+          "sha256": "ef1721b20fa4c8789b11766ad257e72534e49425792c4e93a095133eaff1836b",
+          "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
+        },
+        "full": {
+          "version": "1.1.0",
+          "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec",
+          "size": 256993577,
+          "sha256": "afcff921bcad44b4f1de1c1724859a0ab663520b4cb29fea38a7d36c85b37f88",
+          "parts": [
+            {
+              "url": "applications/onefile/base/onefile-1.1.0-full.cadreur.part01",
+              "size": 94371840
+            },
+            {
+              "url": "applications/onefile/base/onefile-1.1.0-full.cadreur.part02",
+              "size": 94371840
+            },
+            {
+              "url": "applications/onefile/base/onefile-1.1.0-full.cadreur.part03",
+              "size": 68249897
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "onemirror",
+      "name": "OneMirror",
+      "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
+      "version": "1.4.4",
+      "date": "2026-11-07T14:02:16.295Z",
+      "notes": [
+        "Correction : la fenêtre du téléphone pouvait devenir plus grande que l’écran et couper l’image (par exemple en paysage ou collée en haut de l’écran). Après chaque redimensionnement, elle reprend les bonnes proportions et revient entièrement dans l’écran."
+      ],
+      "packages": {
+        "patch": {
+          "url": "applications/onemirror/1.4.4/onemirror-1.4.4-patch.onecloud",
+          "size": 719387,
+          "sha256": "6f04ec22025e59cf85804ef33b37134ee08deab11d6ce554311e78bd03751f3d",
+          "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
+        },
+        "full": {
+          "version": "1.0.0",
+          "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57",
+          "size": 157001861,
+          "sha256": "e5fb84ef21e75e7b1e3e21e8934df0fd6e0ecc50b32e700f4c50fc3f1ee23aee",
+          "parts": [
+            {
+              "url": "applications/onemirror/base/onemirror-1.0.0-full.cadreur.part01",
+              "size": 94371840
+            },
+            {
+              "url": "applications/onemirror/base/onemirror-1.0.0-full.cadreur.part02",
+              "size": 62630021
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "updatedAt": "2026-11-07T14:02:16.295Z"
+}
