@@ -38,16 +38,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.6.1",
-      "date": "2026-11-10T10:51:37.626Z",
+      "version": "1.6.2",
+      "date": "2026-11-11T17:50:28.333Z",
       "notes": [
-        "Le clic droit de OneFile (son nouveau sous-menu de préréglages) suit chaque mise à jour de OneFile."
+        "OneCloud peut installer OneStream, le nouveau logiciel de la série One (ChebakiaBot dans le chat Twitch)."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.6.1/hub-1.6.1.onecloud",
-          "size": 432984,
-          "sha256": "efc5e320aad97098c03801ab9a1ca29d79ea7ac42e9b5f1d5526ffa37b082d7f"
+          "url": "applications/onecloud/1.6.2/hub-1.6.2.onecloud",
+          "size": 433481,
+          "sha256": "069ab1811a8bedeeca0626d26b02b086a6cc06efa515e2c976bdbf594213c61a"
         }
       }
     },
@@ -122,7 +122,45 @@
           ]
         }
       }
+    },
+    {
+      "id": "onestream",
+      "name": "OneStream",
+      "tagline": "ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute.",
+      "version": "1.0.0",
+      "date": "2026-11-11T17:50:28.333Z",
+      "notes": [
+        "Nouveau logiciel : OneStream fait parler ChebakiaBot dans ton chat Twitch.",
+        "Les heures de prière de la mosquée As-Sabirin (Uccle) sont annoncées dans le chat à la minute exacte, pendant le live.",
+        "23 commandes prêtes (!so, !uptime, !followage, !lurk, !clip, !love, !8ball, !mort…), modifiables, avec qui peut les utiliser et le délai entre deux utilisations.",
+        "Rappels automatiques pendant le live : follow, Discord et clips, seulement quand le chat est actif.",
+        "Fermer la fenêtre garde ChebakiaBot actif : il reste près de l’horloge de Windows."
+      ],
+      "packages": {
+        "patch": {
+          "url": "applications/onestream/1.0.0/onestream-1.0.0-patch.onecloud",
+          "size": 200433,
+          "sha256": "e971f6b1b12a78e753a96fcf365d750038784bd5582b538ed1fd297c57137dbe",
+          "runtimeHash": "4ce7f02bd56817a12cfb93d59a650d9ff15d48beeebac831a9c0e4cf86695e05"
+        },
+        "full": {
+          "version": "1.0.0",
+          "runtimeHash": "4ce7f02bd56817a12cfb93d59a650d9ff15d48beeebac831a9c0e4cf86695e05",
+          "size": 145531773,
+          "sha256": "811b5cb58f97c658d918523241d0a086e8a116fb012b0863aea6bd52370823db",
+          "parts": [
+            {
+              "url": "applications/onestream/base/onestream-1.0.0-full.onecloud.part01",
+              "size": 94371840
+            },
+            {
+              "url": "applications/onestream/base/onestream-1.0.0-full.onecloud.part02",
+              "size": 51159933
+            }
+          ]
+        }
+      }
     }
   ],
-  "updatedAt": "2026-11-10T11:24:42.065Z"
+  "updatedAt": "2026-11-11T17:50:28.333Z"
 }
