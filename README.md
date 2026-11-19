@@ -16,7 +16,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.9.0 | 19/11/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.9.1 | 19/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.5 | 19/11/2026 |
 | **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.0.0 | 11/11/2026 |
@@ -24,13 +24,10 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 ## Nouveautés
 
-### OneClip 0.9.0
+### OneClip 0.9.1
 
-- Montage : nouvelle piste Texte dans la timeline, pour les titres et les sous-titres, dessinés par-dessus la vidéo.
-- 12 modèles de titres prêts à l’emploi (grand titre, nom en bas de l’écran, chapitre, machine à écrire, néon, BD, abonne-toi…) : clic ou glisser depuis l’onglet Textes, texte sur plusieurs lignes, position libre.
-- Sous-titres automatiques de toute la séquence : chaque plan parlé est transcrit, et ses sous-titres le suivent quand tu le coupes, le déplaces ou le supprimes.
-- Le studio des sous-titres est maintenant aussi dans le Montage : les 26 styles, les animations, les mots-clés, les « euh » retirés, les gros mots masqués, Mes styles et les fichiers SRT, VTT et ASS de la séquence.
-- Titres et sous-titres s’exportent dans la vidéo exactement comme dans l’aperçu ; fondu d’apparition et de disparition réglables.
+- Montage : « Générer les sous-titres » transcrit maintenant tes vidéos sur n’importe quelle piste (avant, seulement la piste A1).
+- Montage : dans le panneau d’un plan, la section « Sous-titres » a un vrai bouton « Générer les sous-titres de ce plan » (l’ancien message qui renvoyait vers Clips est retiré).
 
 ### OneFile 1.5.1
 
