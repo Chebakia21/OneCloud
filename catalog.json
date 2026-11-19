@@ -5,16 +5,22 @@
       "id": "cadreur",
       "name": "OneClip",
       "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
-      "version": "0.7.2",
-      "date": "2026-11-01T17:40:33.562Z",
+      "version": "0.8.0",
+      "date": "2026-11-19T10:14:28.620Z",
       "notes": [
-        "Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels."
+        "Nouveau studio des sous-titres (onglet Sous-titres) : 26 styles prêts à l’emploi en 5 familles (Tendance, Karaoké, Sobre, Fun, Gaming), avec un aperçu animé au survol.",
+        "Tout se règle : 10 polices embarquées, couleurs, dégradé, multicolore, contour, ombre (douce, nette, relief 3D, néon, glitch), fond en bloc, par ligne ou par mot, nombre de mots à l’écran (jusqu’au mot par mot).",
+        "11 animations d’apparition (pop, rebond, écriture, chute, glisse, fondu, zoom, flou, vague, tremble…) et 7 façons de faire ressortir le mot prononcé, dont le karaoké en remplissage.",
+        "Mots-clés : les chiffres et les mots forts ressortent tout seuls en couleur et en plus grand, ou clique sur un mot pour le choisir toi-même. Emojis au-dessus ou après le texte.",
+        "Nettoyage en un clic : les « euh » disparaissent de l’écran, les gros mots sont masqués (p****n). Rechercher et remplacer, décaler le temps d’une phrase ou de tout, fusionner deux phrases.",
+        "« Mes styles » : enregistre tes réglages et retrouve-les dans tous tes projets.",
+        "Fichiers de sous-titres : SRT, VTT, ASS stylé (police, couleurs, position et karaoké gardés) et texte seul."
       ],
       "packages": {
         "patch": {
-          "url": "applications/oneclip/0.7.2/oneclip-0.7.2-patch.onecloud",
-          "size": 17204100,
-          "sha256": "4c29ebcd185aaf31a0d42a32955c2c40f5ba5b4b581711d82bdbeb6b6e1b918c",
+          "url": "applications/oneclip/0.8.0/oneclip-0.8.0-patch.onecloud",
+          "size": 17558535,
+          "sha256": "6e9e7cd2418319730a4ae397242568b9bafc146c150a7d3eb2221645e15309f9",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -93,16 +99,17 @@
       "id": "onemirror",
       "name": "OneMirror",
       "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
-      "version": "1.4.4",
-      "date": "2026-11-07T14:02:16.295Z",
+      "version": "1.4.5",
+      "date": "2026-11-19T10:14:28.620Z",
       "notes": [
-        "Correction : la fenêtre du téléphone pouvait devenir plus grande que l’écran et couper l’image (par exemple en paysage ou collée en haut de l’écran). Après chaque redimensionnement, elle reprend les bonnes proportions et revient entièrement dans l’écran."
+        "La caméra virtuelle est beaucoup plus fluide : chaque nouvelle image du téléphone part dès qu’elle arrive, au lieu d’être envoyée au hasard d’une minuterie (certaines partaient deux fois, d’autres jamais).",
+        "Moins de travail pour le PC : l’image est préparée par la carte graphique, et OneMirror n’attend plus jamais la caméra virtuelle plus de quelques millisecondes."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onemirror/1.4.4/onemirror-1.4.4-patch.onecloud",
-          "size": 719387,
-          "sha256": "6f04ec22025e59cf85804ef33b37134ee08deab11d6ce554311e78bd03751f3d",
+          "url": "applications/onemirror/1.4.5/onemirror-1.4.5-patch.onecloud",
+          "size": 720025,
+          "sha256": "ff9e2627df1cea07d1470254498361c4faa0ddeb143ff7b3c2d1681c8cced863",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
         },
         "full": {
@@ -162,5 +169,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-11T17:50:28.333Z"
+  "updatedAt": "2026-11-19T10:14:28.620Z"
 }

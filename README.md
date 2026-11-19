@@ -16,25 +16,32 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.7.2 | 01/11/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.8.0 | 19/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
-| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.4 | 07/11/2026 |
+| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.5 | 19/11/2026 |
 | **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.0.0 | 11/11/2026 |
 | **OneCloud** | Installe et met à jour les logiciels One. | 1.6.2 | 11/11/2026 |
 
 ## Nouveautés
 
-### OneClip 0.7.2
+### OneClip 0.8.0
 
-- Fini le nom provisoire « Cadreur » : le programme s'appelle maintenant OneClip.exe, et ton dossier de projets est rangé sous le nom OneClip. Tes projets, réglages et projets récents sont gardés tels quels.
+- Nouveau studio des sous-titres (onglet Sous-titres) : 26 styles prêts à l’emploi en 5 familles (Tendance, Karaoké, Sobre, Fun, Gaming), avec un aperçu animé au survol.
+- Tout se règle : 10 polices embarquées, couleurs, dégradé, multicolore, contour, ombre (douce, nette, relief 3D, néon, glitch), fond en bloc, par ligne ou par mot, nombre de mots à l’écran (jusqu’au mot par mot).
+- 11 animations d’apparition (pop, rebond, écriture, chute, glisse, fondu, zoom, flou, vague, tremble…) et 7 façons de faire ressortir le mot prononcé, dont le karaoké en remplissage.
+- Mots-clés : les chiffres et les mots forts ressortent tout seuls en couleur et en plus grand, ou clique sur un mot pour le choisir toi-même. Emojis au-dessus ou après le texte.
+- Nettoyage en un clic : les « euh » disparaissent de l’écran, les gros mots sont masqués (p****n). Rechercher et remplacer, décaler le temps d’une phrase ou de tout, fusionner deux phrases.
+- « Mes styles » : enregistre tes réglages et retrouve-les dans tous tes projets.
+- Fichiers de sous-titres : SRT, VTT, ASS stylé (police, couleurs, position et karaoké gardés) et texte seul.
 
 ### OneFile 1.5.1
 
 - Correction : la conversion en Word s’arrêtait sur les PDF qui contiennent une page scannée (« Conversion en Word interrompue »). Les pages scannées sont de nouveau lues.
 
-### OneMirror 1.4.4
+### OneMirror 1.4.5
 
-- Correction : la fenêtre du téléphone pouvait devenir plus grande que l’écran et couper l’image (par exemple en paysage ou collée en haut de l’écran). Après chaque redimensionnement, elle reprend les bonnes proportions et revient entièrement dans l’écran.
+- La caméra virtuelle est beaucoup plus fluide : chaque nouvelle image du téléphone part dès qu’elle arrive, au lieu d’être envoyée au hasard d’une minuterie (certaines partaient deux fois, d’autres jamais).
+- Moins de travail pour le PC : l’image est préparée par la carte graphique, et OneMirror n’attend plus jamais la caméra virtuelle plus de quelques millisecondes.
 
 ### OneStream 1.0.0
 
