@@ -16,7 +16,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.8.0 | 19/11/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.9.0 | 19/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.5 | 19/11/2026 |
 | **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.0.0 | 11/11/2026 |
@@ -24,15 +24,13 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 ## Nouveautés
 
-### OneClip 0.8.0
+### OneClip 0.9.0
 
-- Nouveau studio des sous-titres (onglet Sous-titres) : 26 styles prêts à l’emploi en 5 familles (Tendance, Karaoké, Sobre, Fun, Gaming), avec un aperçu animé au survol.
-- Tout se règle : 10 polices embarquées, couleurs, dégradé, multicolore, contour, ombre (douce, nette, relief 3D, néon, glitch), fond en bloc, par ligne ou par mot, nombre de mots à l’écran (jusqu’au mot par mot).
-- 11 animations d’apparition (pop, rebond, écriture, chute, glisse, fondu, zoom, flou, vague, tremble…) et 7 façons de faire ressortir le mot prononcé, dont le karaoké en remplissage.
-- Mots-clés : les chiffres et les mots forts ressortent tout seuls en couleur et en plus grand, ou clique sur un mot pour le choisir toi-même. Emojis au-dessus ou après le texte.
-- Nettoyage en un clic : les « euh » disparaissent de l’écran, les gros mots sont masqués (p****n). Rechercher et remplacer, décaler le temps d’une phrase ou de tout, fusionner deux phrases.
-- « Mes styles » : enregistre tes réglages et retrouve-les dans tous tes projets.
-- Fichiers de sous-titres : SRT, VTT, ASS stylé (police, couleurs, position et karaoké gardés) et texte seul.
+- Montage : nouvelle piste Texte dans la timeline, pour les titres et les sous-titres, dessinés par-dessus la vidéo.
+- 12 modèles de titres prêts à l’emploi (grand titre, nom en bas de l’écran, chapitre, machine à écrire, néon, BD, abonne-toi…) : clic ou glisser depuis l’onglet Textes, texte sur plusieurs lignes, position libre.
+- Sous-titres automatiques de toute la séquence : chaque plan parlé est transcrit, et ses sous-titres le suivent quand tu le coupes, le déplaces ou le supprimes.
+- Le studio des sous-titres est maintenant aussi dans le Montage : les 26 styles, les animations, les mots-clés, les « euh » retirés, les gros mots masqués, Mes styles et les fichiers SRT, VTT et ASS de la séquence.
+- Titres et sous-titres s’exportent dans la vidéo exactement comme dans l’aperçu ; fondu d’apparition et de disparition réglables.
 
 ### OneFile 1.5.1
 

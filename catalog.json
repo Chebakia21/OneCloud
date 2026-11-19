@@ -5,22 +5,20 @@
       "id": "cadreur",
       "name": "OneClip",
       "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
-      "version": "0.8.0",
-      "date": "2026-11-19T10:14:28.620Z",
+      "version": "0.9.0",
+      "date": "2026-11-19T12:09:19.502Z",
       "notes": [
-        "Nouveau studio des sous-titres (onglet Sous-titres) : 26 styles prêts à l’emploi en 5 familles (Tendance, Karaoké, Sobre, Fun, Gaming), avec un aperçu animé au survol.",
-        "Tout se règle : 10 polices embarquées, couleurs, dégradé, multicolore, contour, ombre (douce, nette, relief 3D, néon, glitch), fond en bloc, par ligne ou par mot, nombre de mots à l’écran (jusqu’au mot par mot).",
-        "11 animations d’apparition (pop, rebond, écriture, chute, glisse, fondu, zoom, flou, vague, tremble…) et 7 façons de faire ressortir le mot prononcé, dont le karaoké en remplissage.",
-        "Mots-clés : les chiffres et les mots forts ressortent tout seuls en couleur et en plus grand, ou clique sur un mot pour le choisir toi-même. Emojis au-dessus ou après le texte.",
-        "Nettoyage en un clic : les « euh » disparaissent de l’écran, les gros mots sont masqués (p****n). Rechercher et remplacer, décaler le temps d’une phrase ou de tout, fusionner deux phrases.",
-        "« Mes styles » : enregistre tes réglages et retrouve-les dans tous tes projets.",
-        "Fichiers de sous-titres : SRT, VTT, ASS stylé (police, couleurs, position et karaoké gardés) et texte seul."
+        "Montage : nouvelle piste Texte dans la timeline, pour les titres et les sous-titres, dessinés par-dessus la vidéo.",
+        "12 modèles de titres prêts à l’emploi (grand titre, nom en bas de l’écran, chapitre, machine à écrire, néon, BD, abonne-toi…) : clic ou glisser depuis l’onglet Textes, texte sur plusieurs lignes, position libre.",
+        "Sous-titres automatiques de toute la séquence : chaque plan parlé est transcrit, et ses sous-titres le suivent quand tu le coupes, le déplaces ou le supprimes.",
+        "Le studio des sous-titres est maintenant aussi dans le Montage : les 26 styles, les animations, les mots-clés, les « euh » retirés, les gros mots masqués, Mes styles et les fichiers SRT, VTT et ASS de la séquence.",
+        "Titres et sous-titres s’exportent dans la vidéo exactement comme dans l’aperçu ; fondu d’apparition et de disparition réglables."
       ],
       "packages": {
         "patch": {
-          "url": "applications/oneclip/0.8.0/oneclip-0.8.0-patch.onecloud",
-          "size": 17558535,
-          "sha256": "6e9e7cd2418319730a4ae397242568b9bafc146c150a7d3eb2221645e15309f9",
+          "url": "applications/oneclip/0.9.0/oneclip-0.9.0-patch.onecloud",
+          "size": 17576264,
+          "sha256": "e0bd8dac96de6aeeb05d6aad35574345c97034a55e5689bd6b38ea1b1d43803d",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -169,5 +167,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-19T10:14:28.620Z"
+  "updatedAt": "2026-11-19T12:09:19.502Z"
 }
