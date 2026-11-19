@@ -39,16 +39,18 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.6.2",
-      "date": "2026-11-11T17:50:28.333Z",
+      "version": "1.6.3",
+      "date": "2026-11-19T13:57:28.993Z",
       "notes": [
-        "OneCloud peut installer OneStream, le nouveau logiciel de la série One (ChebakiaBot dans le chat Twitch)."
+        "Les mises à jour arrivent beaucoup plus vite : OneCloud vérifie le cloud toutes les 5 minutes (au lieu de 30) et dès que tu ramènes sa fenêtre devant.",
+        "OneCloud lit toujours la dernière version du catalogue, sans attendre la copie que GitHub garde quelques minutes.",
+        "« Rechercher des mises à jour » installe directement ce qui est nouveau."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.6.2/hub-1.6.2.onecloud",
-          "size": 433481,
-          "sha256": "069ab1811a8bedeeca0626d26b02b086a6cc06efa515e2c976bdbf594213c61a"
+          "url": "applications/onecloud/1.6.3/hub-1.6.3.onecloud",
+          "size": 434247,
+          "sha256": "920b1e286df7766a677e13c2132aa0ecd6ef902fa203aa02c5eca07bb66a581d"
         }
       }
     },
@@ -164,5 +166,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-19T13:52:04.775Z"
+  "updatedAt": "2026-11-19T13:57:28.993Z"
 }
