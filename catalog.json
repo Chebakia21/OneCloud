@@ -39,21 +39,16 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.7.0",
-      "date": "2026-11-23T15:23:16.895Z",
+      "version": "1.7.1",
+      "date": "2026-11-23T16:07:31.270Z",
       "notes": [
-        "Nouvelle interface : chaque logiciel a son décor en pixel art à la couleur de son icône (coucher de soleil pour OneClip, forêt pour OneFile, mer pour OneMirror, toits la nuit pour OneStream).",
-        "Les logiciels sont rangés dans une étagère en bas : clique sur une icône (ou utilise les flèches du clavier) pour passer de l'un à l'autre, le décor change en fondu.",
-        "La barre latérale et le cadre sont en verre dépoli, et les boutons Réduire, Agrandir et Fermer de Windows sont posés dessus.",
-        "Pensé pour rester fluide : les décors sont chargés dès l'ouverture, le flou du cadre est préparé à l'avance, et les nuages ne défilent que quand OneCloud est la fenêtre active (presque rien n'est consommé quand tu travailles ailleurs).",
-        "Nouveau réglage « Mode léger » dans Paramètres (verre sans flou, décor immobile) : OneCloud l'active aussi tout seul, le temps d'une ouverture, si l'ordinateur peine.",
-        "« Désinstaller », « Versions installées » et « Ouvrir le dossier » sont dans le menu « Options » de chaque logiciel."
+        "La barre des logiciels en bas est plus fine et les icônes plus petites : la page laisse plus de place au décor."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.7.0/hub-1.7.0.onecloud",
-          "size": 575686,
-          "sha256": "8d2ae21b4e4dbcf040d05e99d4d387c6eb9a8a6c944794997d0bb5b3d1b3dfde"
+          "url": "applications/onecloud/1.7.1/hub-1.7.1.onecloud",
+          "size": 573091,
+          "sha256": "a60ea84339fe97b855235c08261b647ff894722a184c3ebdca42fcd5866be4fa"
         }
       }
     },
@@ -169,5 +164,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T15:23:16.895Z"
+  "updatedAt": "2026-11-23T16:07:31.270Z"
 }
