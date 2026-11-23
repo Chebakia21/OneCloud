@@ -20,7 +20,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.5 | 19/11/2026 |
 | **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.0.0 | 11/11/2026 |
-| **OneCloud** | Installe et met à jour les logiciels One. | 1.6.3 | 19/11/2026 |
+| **OneCloud** | Installe et met à jour les logiciels One. | 1.7.0 | 23/11/2026 |
 
 ## Nouveautés
 
@@ -46,11 +46,14 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Rappels automatiques pendant le live : follow, Discord et clips, seulement quand le chat est actif.
 - Fermer la fenêtre garde ChebakiaBot actif : il reste près de l’horloge de Windows.
 
-### OneCloud 1.6.3
+### OneCloud 1.7.0
 
-- Les mises à jour arrivent beaucoup plus vite : OneCloud vérifie le cloud toutes les 5 minutes (au lieu de 30) et dès que tu ramènes sa fenêtre devant.
-- OneCloud lit toujours la dernière version du catalogue, sans attendre la copie que GitHub garde quelques minutes.
-- « Rechercher des mises à jour » installe directement ce qui est nouveau.
+- Nouvelle interface : chaque logiciel a son décor en pixel art à la couleur de son icône (coucher de soleil pour OneClip, forêt pour OneFile, mer pour OneMirror, toits la nuit pour OneStream).
+- Les logiciels sont rangés dans une étagère en bas : clique sur une icône (ou utilise les flèches du clavier) pour passer de l'un à l'autre, le décor change en fondu.
+- La barre latérale et le cadre sont en verre dépoli, et les boutons Réduire, Agrandir et Fermer de Windows sont posés dessus.
+- Pensé pour rester fluide : les décors sont chargés dès l'ouverture, le flou du cadre est préparé à l'avance, et les nuages ne défilent que quand OneCloud est la fenêtre active (presque rien n'est consommé quand tu travailles ailleurs).
+- Nouveau réglage « Mode léger » dans Paramètres (verre sans flou, décor immobile) : OneCloud l'active aussi tout seul, le temps d'une ouverture, si l'ordinateur peine.
+- « Désinstaller », « Versions installées » et « Ouvrir le dossier » sont dans le menu « Options » de chaque logiciel.
 
 ## Comment ce dépôt est rangé
 
