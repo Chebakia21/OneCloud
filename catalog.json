@@ -39,16 +39,17 @@
     {
       "id": "hub",
       "name": "OneCloud",
-      "version": "1.7.1",
-      "date": "2026-11-23T16:07:31.270Z",
+      "version": "1.7.2",
+      "date": "2026-11-23T16:13:25.417Z",
       "notes": [
-        "La barre des logiciels en bas est plus fine et les icônes plus petites : la page laisse plus de place au décor."
+        "Correction : la fenêtre de OneCloud se déplace de nouveau à la souris, en l'attrapant par la barre du haut ou par la barre latérale.",
+        "Un double-clic sur la barre du haut agrandit la fenêtre ou la remet à sa taille."
       ],
       "packages": {
         "hub": {
-          "url": "applications/onecloud/1.7.1/hub-1.7.1.onecloud",
-          "size": 573091,
-          "sha256": "a60ea84339fe97b855235c08261b647ff894722a184c3ebdca42fcd5866be4fa"
+          "url": "applications/onecloud/1.7.2/hub-1.7.2.onecloud",
+          "size": 575138,
+          "sha256": "0c22bd80c7d2395075a723bc6941decde075c886c4f1bd0f33f535d8d8d6fcfc"
         }
       }
     },
@@ -164,5 +165,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T16:07:31.270Z"
+  "updatedAt": "2026-11-23T16:13:25.417Z"
 }

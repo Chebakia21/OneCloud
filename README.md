@@ -20,7 +20,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.5 | 19/11/2026 |
 | **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.0.0 | 11/11/2026 |
-| **OneCloud** | Installe et met à jour les logiciels One. | 1.7.1 | 23/11/2026 |
+| **OneCloud** | Installe et met à jour les logiciels One. | 1.7.2 | 23/11/2026 |
 
 ## Nouveautés
 
@@ -46,9 +46,10 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 - Rappels automatiques pendant le live : follow, Discord et clips, seulement quand le chat est actif.
 - Fermer la fenêtre garde ChebakiaBot actif : il reste près de l’horloge de Windows.
 
-### OneCloud 1.7.1
+### OneCloud 1.7.2
 
-- La barre des logiciels en bas est plus fine et les icônes plus petites : la page laisse plus de place au décor.
+- Correction : la fenêtre de OneCloud se déplace de nouveau à la souris, en l'attrapant par la barre du haut ou par la barre latérale.
+- Un double-clic sur la barre du haut agrandit la fenêtre ou la remet à sa taille.
 
 ## Comment ce dépôt est rangé
 
