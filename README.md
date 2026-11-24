@@ -16,35 +16,35 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.9.1 | 19/11/2026 |
-| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.5.1 | 10/11/2026 |
-| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.4.5 | 19/11/2026 |
-| **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.0.0 | 11/11/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.10.0 | 24/11/2026 |
+| **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.6.0 | 24/11/2026 |
+| **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.5.0 | 24/11/2026 |
+| **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.1.0 | 24/11/2026 |
 | **OneCloud** | Installe et met à jour les logiciels One. | 1.7.2 | 23/11/2026 |
 
 ## Nouveautés
 
-### OneClip 0.9.1
+### OneClip 0.10.0
 
-- Montage : « Générer les sous-titres » transcrit maintenant tes vidéos sur n’importe quelle piste (avant, seulement la piste A1).
-- Montage : dans le panneau d’un plan, la section « Sous-titres » a un vrai bouton « Générer les sous-titres de ce plan » (l’ancien message qui renvoyait vers Clips est retiré).
+- Nouvelle interface : fond anthracite, cartes en verre et police Geist, la même famille que OneFile, OneMirror et OneStream.
+- Nouvel accueil : trois grandes cartes (Nouveau montage, Créer des clips, Importer une VOD Twitch) et tes projets récents en vignettes, qui s’adaptent à la taille de la fenêtre.
+- Le bouton principal, les curseurs et les interrupteurs passent en blanc ; le corail de OneClip marque ce qui est choisi.
 
-### OneFile 1.5.1
+### OneFile 1.6.0
 
-- Correction : la conversion en Word s’arrêtait sur les PDF qui contiennent une page scannée (« Conversion en Word interrompue »). Les pages scannées sont de nouveau lues.
+- Nouvelle interface : fond anthracite, barre latérale avec « Convertir », « Depuis un lien » et « Paramètres », page arrondie et cartes en verre.
+- Les onglets (Images, Vidéos, Sons…) deviennent des pastilles, et le menu s’adapte quand tu rétrécis la fenêtre.
+- Changer d’onglet est plus doux : la page apparaît en fondu, sans à-coup.
 
-### OneMirror 1.4.5
+### OneMirror 1.5.0
 
-- La caméra virtuelle est beaucoup plus fluide : chaque nouvelle image du téléphone part dès qu’elle arrive, au lieu d’être envoyée au hasard d’une minuterie (certaines partaient deux fois, d’autres jamais).
-- Moins de travail pour le PC : l’image est préparée par la carte graphique, et OneMirror n’attend plus jamais la caméra virtuelle plus de quelques millisecondes.
+- Nouvelle interface : fond anthracite, barre latérale avec Téléphones et « Ajouter en Wi-Fi », page arrondie et cartes en verre.
+- Les interrupteurs et les curseurs passent en blanc ; le bleu ciel de OneMirror marque ce qui est choisi.
 
-### OneStream 1.0.0
+### OneStream 1.1.0
 
-- Nouveau logiciel : OneStream fait parler ChebakiaBot dans ton chat Twitch.
-- Les heures de prière de la mosquée As-Sabirin (Uccle) sont annoncées dans le chat à la minute exacte, pendant le live.
-- 23 commandes prêtes (!so, !uptime, !followage, !lurk, !clip, !love, !8ball, !mort…), modifiables, avec qui peut les utiliser et le délai entre deux utilisations.
-- Rappels automatiques pendant le live : follow, Discord et clips, seulement quand le chat est actif.
-- Fermer la fenêtre garde ChebakiaBot actif : il reste près de l’horloge de Windows.
+- Nouvelle interface : fond anthracite, barre latérale à icônes (Accueil, Commandes, Prières, Rappels), page arrondie et cartes en verre.
+- Changer de page est plus doux : la page apparaît en fondu, sans à-coup.
 
 ### OneCloud 1.7.2
 

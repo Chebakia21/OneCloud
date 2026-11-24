@@ -5,17 +5,18 @@
       "id": "cadreur",
       "name": "OneClip",
       "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
-      "version": "0.9.1",
-      "date": "2026-11-19T13:52:04.775Z",
+      "version": "0.10.0",
+      "date": "2026-11-24T09:54:10.993Z",
       "notes": [
-        "Montage : « Générer les sous-titres » transcrit maintenant tes vidéos sur n’importe quelle piste (avant, seulement la piste A1).",
-        "Montage : dans le panneau d’un plan, la section « Sous-titres » a un vrai bouton « Générer les sous-titres de ce plan » (l’ancien message qui renvoyait vers Clips est retiré)."
+        "Nouvelle interface : fond anthracite, cartes en verre et police Geist, la même famille que OneFile, OneMirror et OneStream.",
+        "Nouvel accueil : trois grandes cartes (Nouveau montage, Créer des clips, Importer une VOD Twitch) et tes projets récents en vignettes, qui s’adaptent à la taille de la fenêtre.",
+        "Le bouton principal, les curseurs et les interrupteurs passent en blanc ; le corail de OneClip marque ce qui est choisi."
       ],
       "packages": {
         "patch": {
-          "url": "applications/oneclip/0.9.1/oneclip-0.9.1-patch.onecloud",
-          "size": 17575589,
-          "sha256": "94321f76b47afc271f7ea0bf0d2f6552b99f2bfcc151d619797462bfc9475418",
+          "url": "applications/oneclip/0.10.0/oneclip-0.10.0-patch.onecloud",
+          "size": 17681567,
+          "sha256": "6caf5e4b26c720f7c33e7ee033198aabb12e0de76cc15fe909d091fd5a26e747",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -57,16 +58,18 @@
       "id": "onefile",
       "name": "OneFile",
       "tagline": "Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local.",
-      "version": "1.5.1",
-      "date": "2026-11-10T11:24:42.065Z",
+      "version": "1.6.0",
+      "date": "2026-11-24T09:54:10.993Z",
       "notes": [
-        "Correction : la conversion en Word s’arrêtait sur les PDF qui contiennent une page scannée (« Conversion en Word interrompue »). Les pages scannées sont de nouveau lues."
+        "Nouvelle interface : fond anthracite, barre latérale avec « Convertir », « Depuis un lien » et « Paramètres », page arrondie et cartes en verre.",
+        "Les onglets (Images, Vidéos, Sons…) deviennent des pastilles, et le menu s’adapte quand tu rétrécis la fenêtre.",
+        "Changer d’onglet est plus doux : la page apparaît en fondu, sans à-coup."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onefile/1.5.1/onefile-1.5.1-patch.onecloud",
-          "size": 32461237,
-          "sha256": "05e0c45e3a729db761314fcdb3dd912e6406dc7d486d56e4eaea8c3fbbedd7d6",
+          "url": "applications/onefile/1.6.0/onefile-1.6.0-patch.onecloud",
+          "size": 32268455,
+          "sha256": "b06969412d5bff0865f6804a3e910a1839640743a91b1aac260cb9a3b0194b01",
           "runtimeHash": "c47e9f4b21a4ce65c901ed1bafbce9da7db6bdfdb6911ca1798be53e358470ec"
         },
         "full": {
@@ -95,17 +98,17 @@
       "id": "onemirror",
       "name": "OneMirror",
       "tagline": "L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS.",
-      "version": "1.4.5",
-      "date": "2026-11-19T10:14:28.620Z",
+      "version": "1.5.0",
+      "date": "2026-11-24T09:54:10.993Z",
       "notes": [
-        "La caméra virtuelle est beaucoup plus fluide : chaque nouvelle image du téléphone part dès qu’elle arrive, au lieu d’être envoyée au hasard d’une minuterie (certaines partaient deux fois, d’autres jamais).",
-        "Moins de travail pour le PC : l’image est préparée par la carte graphique, et OneMirror n’attend plus jamais la caméra virtuelle plus de quelques millisecondes."
+        "Nouvelle interface : fond anthracite, barre latérale avec Téléphones et « Ajouter en Wi-Fi », page arrondie et cartes en verre.",
+        "Les interrupteurs et les curseurs passent en blanc ; le bleu ciel de OneMirror marque ce qui est choisi."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onemirror/1.4.5/onemirror-1.4.5-patch.onecloud",
-          "size": 720025,
-          "sha256": "ff9e2627df1cea07d1470254498361c4faa0ddeb143ff7b3c2d1681c8cced863",
+          "url": "applications/onemirror/1.5.0/onemirror-1.5.0-patch.onecloud",
+          "size": 822996,
+          "sha256": "ba5df0658210c817e87567b8b0b389f8283c558d423db36c9dd9dc3265eac732",
           "runtimeHash": "9bc2d5f841d84084df8a2608a56c89ea67562a3715fe2580f96c114da2c76e57"
         },
         "full": {
@@ -130,20 +133,17 @@
       "id": "onestream",
       "name": "OneStream",
       "tagline": "ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute.",
-      "version": "1.0.0",
-      "date": "2026-11-11T17:50:28.333Z",
+      "version": "1.1.0",
+      "date": "2026-11-24T09:54:10.993Z",
       "notes": [
-        "Nouveau logiciel : OneStream fait parler ChebakiaBot dans ton chat Twitch.",
-        "Les heures de prière de la mosquée As-Sabirin (Uccle) sont annoncées dans le chat à la minute exacte, pendant le live.",
-        "23 commandes prêtes (!so, !uptime, !followage, !lurk, !clip, !love, !8ball, !mort…), modifiables, avec qui peut les utiliser et le délai entre deux utilisations.",
-        "Rappels automatiques pendant le live : follow, Discord et clips, seulement quand le chat est actif.",
-        "Fermer la fenêtre garde ChebakiaBot actif : il reste près de l’horloge de Windows."
+        "Nouvelle interface : fond anthracite, barre latérale à icônes (Accueil, Commandes, Prières, Rappels), page arrondie et cartes en verre.",
+        "Changer de page est plus doux : la page apparaît en fondu, sans à-coup."
       ],
       "packages": {
         "patch": {
-          "url": "applications/onestream/1.0.0/onestream-1.0.0-patch.onecloud",
-          "size": 200433,
-          "sha256": "e971f6b1b12a78e753a96fcf365d750038784bd5582b538ed1fd297c57137dbe",
+          "url": "applications/onestream/1.1.0/onestream-1.1.0-patch.onecloud",
+          "size": 304610,
+          "sha256": "65ab3a0fd806f2eade08c0f5a47b7bf045095b415af067f75d4aa52059a5274c",
           "runtimeHash": "4ce7f02bd56817a12cfb93d59a650d9ff15d48beeebac831a9c0e4cf86695e05"
         },
         "full": {
@@ -165,5 +165,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-23T16:13:25.417Z"
+  "updatedAt": "2026-11-24T09:54:10.993Z"
 }
