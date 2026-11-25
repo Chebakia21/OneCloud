@@ -5,18 +5,22 @@
       "id": "cadreur",
       "name": "OneClip",
       "tagline": "Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export.",
-      "version": "0.10.0",
-      "date": "2026-11-24T09:54:10.993Z",
+      "version": "0.11.0",
+      "date": "2026-11-25T12:01:30.465Z",
       "notes": [
-        "Nouvelle interface : fond anthracite, cartes en verre et police Geist, la même famille que OneFile, OneMirror et OneStream.",
-        "Nouvel accueil : trois grandes cartes (Nouveau montage, Créer des clips, Importer une VOD Twitch) et tes projets récents en vignettes, qui s’adaptent à la taille de la fenêtre.",
-        "Le bouton principal, les curseurs et les interrupteurs passent en blanc ; le corail de OneClip marque ce qui est choisi."
+        "Le Montage s’organise en 14 onglets dans la barre de gauche : Médias, Montage, Effets, Transitions, Animation, Caméra, Couleur, Masques, Texte, Audio, 3D, Export, Plugins et Réglages.",
+        "Chaque onglet range ses outils par famille (par exemple Cinéma et lumière, Glitch, Flou et netteté), avec un aperçu et une explication au survol.",
+        "Les outils qui n’existent pas encore sont marqués « Bientôt » : un clic le dit clairement, rien ne fait semblant de marcher.",
+        "Nouveau : une étoile pour mettre un outil en favori, et la liste « Récents » des outils que tu viens d’utiliser.",
+        "Nouveau : Ctrl F cherche n’importe quel effet, transition ou réglage, même sans accents.",
+        "Nouveau : mode Débutant (seulement les outils essentiels et disponibles) ou Avancé (tout), en bas de la barre de gauche.",
+        "Les outils de coupe (Sélection, Lame, Décaler…) passent dans l’en-tête de la timeline."
       ],
       "packages": {
         "patch": {
-          "url": "applications/oneclip/0.10.0/oneclip-0.10.0-patch.onecloud",
-          "size": 17681567,
-          "sha256": "6caf5e4b26c720f7c33e7ee033198aabb12e0de76cc15fe909d091fd5a26e747",
+          "url": "applications/oneclip/0.11.0/oneclip-0.11.0-patch.onecloud",
+          "size": 17688463,
+          "sha256": "5276e3745b27ad173d29213752659e4d4788e81a596fed3f963cfa6f0b99f7e3",
           "runtimeHash": "883f08309bf436fb442d1903452a69c03747ed77c5f502e88667d9aa1b706556"
         },
         "full": {
@@ -165,5 +169,5 @@
       }
     }
   ],
-  "updatedAt": "2026-11-24T09:54:10.993Z"
+  "updatedAt": "2026-11-25T12:01:30.465Z"
 }
