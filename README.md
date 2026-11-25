@@ -16,7 +16,7 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 | Logiciel | À quoi il sert | Version | Mise à jour |
 |---|---|---|---|
-| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.11.0 | 25/11/2026 |
+| **OneClip** | Montage vidéo et clips : timeline multipiste, moments forts, cadrage, sous-titres, export. | 0.12.0 | 25/11/2026 |
 | **OneFile** | Convertisseur de fichiers : images, vidéos, sons, PDF et archives, par lots, 100 % en local. | 1.6.0 | 24/11/2026 |
 | **OneMirror** | L’écran de ton téléphone Android sur le PC, en USB ou en Wi-Fi, avec le son : prêt pour OBS. | 1.5.0 | 24/11/2026 |
 | **OneStream** | ChebakiaBot dans le chat Twitch : commandes, rappels et heures de prière à la minute. | 1.1.0 | 24/11/2026 |
@@ -24,15 +24,24 @@ Ensuite, plus rien à faire : chaque nouvelle version arrive toute seule dans On
 
 ## Nouveautés
 
-### OneClip 0.11.0
+### OneClip 0.12.0
 
-- Le Montage s’organise en 14 onglets dans la barre de gauche : Médias, Montage, Effets, Transitions, Animation, Caméra, Couleur, Masques, Texte, Audio, 3D, Export, Plugins et Réglages.
-- Chaque onglet range ses outils par famille (par exemple Cinéma et lumière, Glitch, Flou et netteté), avec un aperçu et une explication au survol.
-- Les outils qui n’existent pas encore sont marqués « Bientôt » : un clic le dit clairement, rien ne fait semblant de marcher.
-- Nouveau : une étoile pour mettre un outil en favori, et la liste « Récents » des outils que tu viens d’utiliser.
-- Nouveau : Ctrl F cherche n’importe quel effet, transition ou réglage, même sans accents.
-- Nouveau : mode Débutant (seulement les outils essentiels et disponibles) ou Avancé (tout), en bas de la barre de gauche.
-- Les outils de coupe (Sélection, Lame, Décaler…) passent dans l’en-tête de la timeline.
+- Vitesse : ralenti, accéléré (de 5 à 1600 %), marche arrière, rampes de vitesse et arrêt sur image, avec le son qui suit.
+- Nouveau moteur d’image sur la carte graphique : les effets sont identiques dans l’aperçu et dans la vidéo exportée.
+- 55 effets vidéo : glow, grain de film, light leaks, lens flare, bandes cinéma, glitch, VHS, RGB split, flous de mouvement, tilt shift, netteté, duotone, Technicolor, miroir, kaléidoscope…
+- Particules et matières par-dessus l’image : neige, pluie, étincelles, fumée, feu.
+- 30 transitions : zoom, whip pan, rotation, retournement 3D, cercle, losange, horloge, glitch, pixelisation, brûlure de film, luma wipe…
+- Étalonnage complet : exposition, hautes lumières, ombres, température, vibrance, roues lift/gamma/gain, courbes, et 9 looks prêts (Teal & Orange, Ciné chaud…).
+- Import de LUT .cube et bouton « avant / après » sur le moniteur pour comparer l’image avec et sans effets.
+- Fond vert (ou bleu) avec anti-débordement, luma key et 17 modes de fusion (écran, produit, incrustation…).
+- Perspective 3D : incliner une image en 3D, animable avec des images clés.
+- 18 effets audio entendus dès l’aperçu : égaliseur, compresseur, limiteur, réduction du bruit, noise gate, de-esser, de-hummer, reverb, écho, chorus, voix de téléphone…
+- Ducking : la musique baisse toute seule pendant la voix, puis remonte.
+- 9 nouvelles animations toutes prêtes (push in, rebond, speed zoom, incrustation dans un coin…) et 4 courbes avancées (rebond, élastique…).
+- Mes préréglages : enregistre une pile d’effets et réapplique-la en un clic sur d’autres plans.
+- Export de plusieurs formats d’un coup (YouTube, Shorts, archive…) dans un dossier, et historique des exports.
+- Modèles YouTube : intro de chaîne, abonne-toi, like, écran de fin.
+- Pour les curieux : un effet GLSL personnalisé, à écrire soi-même.
 
 ### OneFile 1.6.0
 
